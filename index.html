@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitCopy - Saját Repók</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">GitCopy</div>
+        <input type="text" placeholder="Search or jump to..." class="search-bar">
+        <div class="nav-links">
+            <span>Pull requests</span>
+            <span>Issues</span>
+            <span>Marketplace</span>
+        </div>
+    </nav>
+
+    <main class="container">
+        <aside class="sidebar">
+            <div class="profile-pic"></div>
+            <h2>Felhasználónév</h2>
+            <p class="bio">Full-stack dev & kávé függő ☕</p>
+            <button class="edit-btn">Edit profile</button>
+        </aside>
+
+        <section class="content">
+            <nav class="repo-nav">
+                <span class="active">Repositories <span class="count">3</span></span>
+                <span>Projects</span>
+                <span>Packages</span>
+            </nav>
+            <div id="repo-list">
+                <!-- Ide jönnek a repók JS-ből -->
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
